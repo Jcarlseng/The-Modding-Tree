@@ -1,19 +1,19 @@
 let modInfo = {
-	name: "The ??? Tree",
+	name: "The Military Tree",
 	id: "mymod",
-	author: "nobody",
-	pointsName: "points",
+	author: "Chopsen",
+	pointsName: "Population",
 	modFiles: ["layers.js", "tree.js"],
 
 	discordName: "",
 	discordLink: "",
-	initialStartPoints: new Decimal (10), // Used for hard resets and new players
-	offlineLimit: 1,  // In hours
+	initialStartPoints: new Decimal (100), // Used for hard resets and new players
+	offlineLimit: 0,  // In hours
 }
 
 // Set your version in num and name
 let VERSION = {
-	num: "0.0",
+	num: "0.1",
 	name: "Literally nothing",
 }
 
